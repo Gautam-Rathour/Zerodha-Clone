@@ -1,13 +1,18 @@
 
 
-import React from 'react';
+import React from "react";
+
 
 function Hero() {
-    return (
-        <h1>Hero</h1>
-    );
-}
+  return (
+    <div className="container">
+      <div className="row">
+        <img src="/media/image/homeHero.png" alt="Hero Image" />
 
+      </div>
+    </div>
+  );
+}
 
 export default Hero;
 
