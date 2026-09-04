@@ -1,54 +1,68 @@
 
 
-import React from 'react';
+// import React from "react";
+
+
+// function Awards() {
+//     return (
+//         <div >
+//             Awards
+//         </div>
+//     )
+// }
+
+// export default Awards;
+
+import React from "react";
 
 function Awards() {
-    return (
-        <div className="container mt-5">
-            <div className="row">
-                <div className="col-6 p-5">
-                    <img src="media/image/largestBroker.svg" alt="LargestBroker" />
-                </div>
-                <div className="col-6 p-5 mt-5">
-                    <h1> Free and open market education </h1>
-                    <p className="mb-5"> Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>
+  return (
+    <div
+      className="container-fluid mt-5"
+      style={{ backgroundColor: "#f5f9ff" }}
+    >
+      <div className="container">
+        <div
+          className="row align-items-center"
+          style={{ padding: "20px 40px" }}>
 
-                    <div className="row">
-                        <div className="col-6">
-                            <ul>
-                                <li>
-                                    <p> Futures and Options </p>
-                                </li>
-                                <li>
-                                    <p> Commodity derivatives </p>
-                                </li>
-                                <li>
-                                    <p> Currency derivatives </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="col-6">
-                            <ul>
-                                <li>
-                                    <p> Stocks & IPOs </p>
-                                </li>
-                                <li>
-                                    <p> Direct mutual funds </p>
-                                </li>
-                                <li>
-                                    <p> Bonds and Govt. Securities </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-            </div>
+          {/* Left - Logo */}
+          <div className="col-lg-3 d-flex align-items-center ">
+            <img
+              src="/media/image/kc-logo-landing.svg"
+              alt="Kite Connect"
+              style={{ width: "280px", marginRight: "70px" }}
+            />
+          </div>
+
+          {/* Middle - Description */}
+          <div className="col-lg-6">
+            <p className="text-muted mb-0" style={{ fontSize: "15px" }}>
+              Need more? Build your own trading and investing experience with
+              Kite Connect, simple HTTP APIs to place orders, stream market
+              data, manage your account, and more.
+              <a
+                href="#"
+                className="text-decoration-none ms-1"
+              >
+                Explore →
+              </a>
+            </p>
+          </div>
+
+          {/* Right - Image */}
+          <div className="col-lg-3 text-center">
+            <img
+              src="/media/image/kc-banner-image.svg"
+              alt="Kite Connect"
+              style={{ width: "200px",  marginLeft: "70px" }}
+            />
+          </div>
+
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
-
 export default Awards;
-
