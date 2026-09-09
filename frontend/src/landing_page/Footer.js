@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer style={{backgroundColor: "#DBDBDB"}}>
+    <footer className="footer" style={{backgroundColor: "#DBDBDB"}}>
     <div className="container border-top mt-5">
       <div className="row p-5">
         <div className="col">
@@ -14,7 +14,7 @@ function Footer() {
           <p>© 2010 - 2026, Zerodha Broking Ltd. All rights reserved.</p>
         </div>
         <div className="col text-muted">
-          <p>Company</p>
+          <h5>Accounts</h5>
           <a href="">Open demat account</a>
           <br />
           <a href="">Minor demat account</a>
@@ -32,8 +32,8 @@ function Footer() {
           <a href="">MTF</a>
           <br />
         </div>
-        <div className="col">
-          <p>Support</p>
+        <div className="col text-muted">
+          <h5>Support</h5>
           <a href="">Contact us</a>
           <br />
           <a href="">Support portal</a>
@@ -51,8 +51,8 @@ function Footer() {
           <a href="">Downloads</a>
           <br />
         </div>
-        <div className="col">
-          <p>Company</p>
+        <div className="col text-muted">
+          <h5>Company</h5>
           <a href="">About</a>
           <br />
           <a href="">Philosophy</a>
@@ -70,8 +70,8 @@ function Footer() {
           <a href="">Referral program</a>
           <br />
         </div>
-        <div className="col">
-          <p>Quick links</p>
+        <div className="col text-muted">
+          <h5>Quick links</h5>
           <a href="">Upcoming IPOs</a>
           <br />
           <a href="">Brokerage charges</a>
@@ -93,9 +93,9 @@ function Footer() {
         <div className="mt-5 text-snall text-muted" style={{ fontSize: "12px"}}>
             <p>
                 Zerodha Broking Ltd.: Member of NSE, BSE, MCX & MSEI – SEBI Registration
-                no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking
-                Ltd. – SEBI Registration no.: IN-DP-431-2019 Registered Address: Zerodha
-                Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public
+                no.: INZ00005165 CDSL/NSDL: Depository services through Zerodha Broking
+                Ltd. – SEBI Registration no.: IN-DP-451-2019 Registered Address: Zerodha
+                Broking Ltd., #155/154, 4th Cross, Dollars Colony, Opp. Clarence Public
                 School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For
                 any complaints pertaining to securities broking please write to
                 complaints@zerodha.com, for DP related to dp@zerodha.com. Please ensure
@@ -113,7 +113,7 @@ function Footer() {
                 from clients only by way of pledge in the depository system w.e.f
                 September 01, 2020. 2) Update your e-mail and phone number with your
                 stock broker / depository participant and receive OTP directly from
-                depository on your e-mail and/or mobile number to create pledge. 3)
+                depository on your e-mail and/or mobile number to create pledge. 5)
                 Check your securities / MF / bonds in the consolidated account statement
                 issued by NSDL/CDSL every month.
             </p>
@@ -141,7 +141,7 @@ function Footer() {
             <p>
                 *Customers availing insurance advisory services offered by Ditto
                 (Tacterial Consulting Private Limited | IRDAI Registered Corporate Agent
-                (Composite) License No CA0738) will not have access to the exchange
+                (Composite) License No CA0758) will not have access to the exchange
                 investor grievance redressal forum, SEBI SCORES/ODR, or arbitration
                 mechanism for such products.
             </p>
@@ -153,3 +153,8 @@ function Footer() {
 }
 
 export default Footer;
+
+
+
+
+
